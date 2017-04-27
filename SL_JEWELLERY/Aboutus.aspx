@@ -11,7 +11,7 @@
 
             <div id="img1">
 
-        <img src="Images/heart-necklace-facebook-jewellery-cover-photos_bdc66694.jpg" style="height: 289px" />
+        <img src="Images/heart-necklace-facebook-jewellery-cover-photos_bdc66694.jpg" style="height: 289px" alt="Pictures" />
 
     </div>
 

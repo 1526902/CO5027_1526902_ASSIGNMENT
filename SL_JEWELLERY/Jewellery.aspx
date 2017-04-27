@@ -12,17 +12,17 @@
 
                 <td>
 
-                    <a href="/Necklace.aspx"><img src="Images/NECKLACEPS.jpg" /></a>
+                    <a href="/Necklace.aspx"><img src="Images/NECKLACEPS.jpg" alt="NECKLACE" /></a>
     
                 <td>
 
-                    <a href="/Bracelet.aspx"><img src="Images/BRACELETPS.jpg" /></a>
+                    <a href="/Bracelet.aspx"><img src="Images/BRACELETPS.jpg" alt="BRACELET"/></a>
 
                 </td>
 
                 <td>
 
-                    <a href="/Earring.aspx"><img src="Images/earringPS.jpg" /></a>
+                    <a href="/Earring.aspx"><img src="Images/earringPS.jpg" alt="EARRING"/></a>
 
                 </td>
 
@@ -33,19 +33,19 @@
                 <td>
 
                    
-                    <a href="/Ring.aspx"><img src="Images/RINGPS.jpg" /></a>
+                    <a href="/Ring.aspx"><img src="Images/RINGPS.jpg" alt="RING"/></a>
 
                 </td>
 
                 <td>
 
-                    <a href="/Tiara.aspx"><img src="Images/TIARA%20PS.jpg" /></a>
+                    <a href="/Tiara.aspx"><img src="Images/TIARA%20PS.jpg" alt="TIARA" /></a>
 
                 </td>
 
                 <td>
 
-                    <a href="/Watch.aspx"><img src="Images/WATCHPS.jpg" /></a>
+                    <a href="/Watch.aspx"><img src="Images/WATCHPS.jpg" alt="WATCH"/></a>
 
 
                 </td>

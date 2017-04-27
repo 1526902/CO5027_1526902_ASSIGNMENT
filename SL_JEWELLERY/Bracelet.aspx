@@ -13,7 +13,7 @@
 	
         <div class="container1">
 
-            <img src="Images/Bracelet.PNG" />
+            <img src="Images/Bracelet.PNG" alt="'Bracelet" />
 
     </div>
 			    

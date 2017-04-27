@@ -6,8 +6,9 @@
 
     <div id="img1">
 
-          <img src="images/24-Karlie-Kloss-Swarovski.w710.h473.2x.jpg"style="height: 350px; width: 750px" />
+          <img src="images/24-Karlie-Kloss-Swarovski.w710.h473.2x.jpg" alt="Karlie Kloss" style="height: 350px; width: 750px" />
 
     </div>
+    
 
 </asp:Content>
