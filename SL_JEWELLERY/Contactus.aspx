@@ -23,7 +23,7 @@
         <br />
 
         <asp:Label ID="LabelEmail" runat="server" Text="Email "></asp:Label>
-        <asp:TextBox ID="TextEmail" runat="server" Width="245px"></asp:TextBox>
+        <asp:TextBox ID="TextEmail" runat="server" Width="245px" TextMode="Email"></asp:TextBox>
 
            <asp:RequiredFieldValidator ID="EmailValidator" runat="server" ControlToValidate="TextEmail" ErrorMessage="Email is required" ForeColor="Red"></asp:RequiredFieldValidator>
 
