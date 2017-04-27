@@ -54,6 +54,17 @@
 
             Copyright 2017 | Nuranisa Farain Binti Abdul Latif	
 
+            <p>
+            <a href="http://css-validator.org/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="http://css-validator.org/images/vcss.png"
+            alt="Valid CSS!" />
+        </a>
+
+                <a href ="https://validator.w3.org/">MARKUP VALIDATION</a> <a href="https://jigsaw.w3.org/css-validator/">CSS VALIDATION</a>
+        </p>
+
+
         </footer>
         </div>
 

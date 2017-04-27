@@ -5,7 +5,7 @@
 
  <article>
 	 
-		<div id="wrap">
+		
 	
         <div class="container1">
 
@@ -34,12 +34,14 @@
                      who will continue to build on the heritage and reputation of SL Jewellery for trust, craftsmanship, innovation 
                      and market leadership. </p>			    
 				   
-		</div>	   
+			   
 
          <div id="content3">
 			    
 	        <h3>VISION</h3>
+
 			</div>
+
 			<p style="height: 24px"> From a famous brand in Brunei to a famous international jewellery brand from Brunei. </p>			    
 		 
 
