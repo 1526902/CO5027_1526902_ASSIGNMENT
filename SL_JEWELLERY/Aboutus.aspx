@@ -40,9 +40,8 @@
 			    
 	        <h3>VISION</h3>
 			</div>
-			<p> From a famous brand in Brunei to a famous international jewellery brand from Brunei. </p>			    
-		 	   
-			  
+			<p style="height: 24px"> From a famous brand in Brunei to a famous international jewellery brand from Brunei. </p>			    
+		 
 
         </article>
 

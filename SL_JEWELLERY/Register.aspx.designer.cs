@@ -10,7 +10,7 @@
 namespace SL_JEWELLERY {
     
     
-    public partial class Contactus {
+    public partial class Register {
         
         /// <summary>
         /// LabelName control.
@@ -22,13 +22,49 @@ namespace SL_JEWELLERY {
         protected global::System.Web.UI.WebControls.Label LabelName;
         
         /// <summary>
-        /// TextName control.
+        /// Textname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextName;
+        protected global::System.Web.UI.WebControls.TextBox Textname;
+        
+        /// <summary>
+        /// LabelUserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelUserName;
+        
+        /// <summary>
+        /// TextUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextUsername;
+        
+        /// <summary>
+        /// LabelPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelPassword;
+        
+        /// <summary>
+        /// TextPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextPassword;
         
         /// <summary>
         /// LabelEmail control.
@@ -49,57 +85,21 @@ namespace SL_JEWELLERY {
         protected global::System.Web.UI.WebControls.TextBox TextEmail;
         
         /// <summary>
-        /// LabelSubject control.
+        /// ButtonRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelSubject;
+        protected global::System.Web.UI.WebControls.Button ButtonRegister;
         
         /// <summary>
-        /// TextSubject control.
+        /// LitError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextSubject;
-        
-        /// <summary>
-        /// LabelMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelMessage;
-        
-        /// <summary>
-        /// TextYourMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextYourMessage;
-        
-        /// <summary>
-        /// btnsubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsubmit;
-        
-        /// <summary>
-        /// LitMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LitMessage;
+        protected global::System.Web.UI.WebControls.Literal LitError;
     }
 }

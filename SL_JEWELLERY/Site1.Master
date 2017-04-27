@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SL_Jewellery.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SL_JEWELLERY.Site1" %>
 
 <!DOCTYPE html>
 
@@ -29,13 +29,15 @@
 		
 			<ul>
 				<li>
-				<a href="/Default.aspx" runat="server">HOME</a></li>
+				<a href="Default.aspx" runat="server">HOME</a></li>
 				<li>
-				<a href="/Aboutus.aspx" runat="server">ABOUT US</a></li>
+				<a href="Aboutus.aspx" runat="server">ABOUT US</a></li>
 				<li>
-				<a href="/Jewellery.aspx" runat="server">JEWELLERY</a></li>
+				<a href="Jewellery.aspx" runat="server">JEWELLERY</a></li>
 				<li>
-				<a href="/Contactus.aspx" runat="server">CONTACT US</a></li>
+				<a href="Contactus.aspx" runat="server">CONTACT US</a></li>
+                <li>
+				<a href="Login.aspx" runat="server">LOGIN</a></li>
 				
 			</ul>
 			

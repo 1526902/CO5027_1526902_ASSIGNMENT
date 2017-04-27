@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SL_Jewellery {
+namespace SL_JEWELLERY {
     
     
     public partial class Site1 {

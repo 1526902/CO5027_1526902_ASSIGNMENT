@@ -13,8 +13,8 @@
 	
         <div class="container1">
 
-         <img src="Images/Ring1.PNG" style ="height: 300px; width: 450px"/>
-
+         <img src="Images/Ring1.PNG" style ="height: 206px; width: 242px"/>
+         <img src="images/Ring2.PNG" style ="height: 206px; width: 242px"/>
     </div>
 			    
 			  <h3> PRICE : </h3>

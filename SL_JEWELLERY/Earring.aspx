@@ -13,7 +13,8 @@
 	
         <div class="container1">
 
-            <img src="Images/Earring2.PNG" style ="height: 300px; width: 450px"/> 
+            <img src="images/Earring1.PNG" style ="height: 206px; width: 242px"/>
+            <img src="Images/Earring2.PNG" style ="height: 206px; width: 242px"/> 
 
 
     </div>

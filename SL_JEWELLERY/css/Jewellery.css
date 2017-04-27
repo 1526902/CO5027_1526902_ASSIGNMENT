@@ -49,23 +49,24 @@
 
 
 article {
-    margin: auto;
     width: 80%;
     border: 3px solid black;
     background-color: #ffffdd;
     text-align: center;
     margin-top: 10px;
+    height: 601px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
 }
 
 
-
 #img1 {
-    margin: auto auto 0px auto;
-    padding-top: 2px;
-    text-align: center;
-    font-family: "Lucida Sans";
-    font-size: 20px;
-    height: 288px;
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
 }
 
 
@@ -90,6 +91,47 @@ article {
     text-align: center;
 }
 
+#content4 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+#content5 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: black;
+    text-align: Center;
+}
+
+#content6 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+#content7 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: black;
+    text-align: Center;
+    height: 337px;
+}
+
+#content8 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+#map1 {
+    width: 100%;
+    height:400px;
+    background-color: white;
+}
 
 footer {
     padding: 1.5em;
@@ -103,4 +145,6 @@ div.container {
     width: 800px;
     border: 2px solid black;
     margin: auto;
+    height: 693px;
 }
+

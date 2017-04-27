@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Tiara.aspx.cs" Inherits="SL_JEWELLERY.Tiara" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .container1 {
+            height: 214px;
+        }
+    </style>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -13,8 +19,8 @@
 	
         <div class="container1">
 
-        <img src="Images/Tiara1.PNG" style ="height: 300px; width: 450px"/>
-
+        <img src="Images/Tiara1.PNG" style ="height: 206px; width: 242px"/>
+        <img src="images/Tiara2.PNG"  style ="height: 206px; width: 242px"/>
 
     </div>
 			    
