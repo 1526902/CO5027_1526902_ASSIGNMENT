@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
- <article>
+    <article>
 	 
 		
 	
@@ -46,6 +46,8 @@
 		 
 
         </article>
+
+      <a href="http://1526902.studentwebserver.co.uk/CO5027/Aboutus.aspx" >HTML VALIDATION</a>
 
 </asp:Content>
 

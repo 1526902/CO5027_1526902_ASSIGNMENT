@@ -17,11 +17,15 @@
        <asp:Label ID="LabelName" runat="server" Text="Name "></asp:Label>
        <asp:TextBox ID="TextName" runat="server" Height="17px" Width="244px"></asp:TextBox>
 
+           <asp:RequiredFieldValidator ID="NameValidator" runat="server" ControlToValidate="TextName" ErrorMessage="Name is required" ForeColor="Red"></asp:RequiredFieldValidator>
+
         <br />
         <br />
 
         <asp:Label ID="LabelEmail" runat="server" Text="Email "></asp:Label>
         <asp:TextBox ID="TextEmail" runat="server" Width="245px"></asp:TextBox>
+
+           <asp:RequiredFieldValidator ID="EmailValidator" runat="server" ControlToValidate="TextEmail" ErrorMessage="Email is required" ForeColor="Red"></asp:RequiredFieldValidator>
 
         <br />
 
@@ -30,12 +34,16 @@
         <asp:Label ID="LabelSubject" runat="server" Text="Subject "></asp:Label>
         <asp:TextBox ID="TextSubject" runat="server" Width="226px"></asp:TextBox>
 
+           <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextSubject" ErrorMessage="Subject is required" ForeColor="Red"></asp:RequiredFieldValidator>
+
         <br />
 
         <br />
           
         <asp:Label ID="LabelMessage" runat="server" Text="Your Message"></asp:Label>
         &nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextYourMessage" runat="server" Height="64px" Width="157px"></asp:TextBox>
+           
+           <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextYourMessage" ErrorMessage="Insert Message" ForeColor="Red"></asp:RequiredFieldValidator>
            
          <br />
          <br />
@@ -60,5 +68,7 @@
          <script src="MapJavaScript.js"></script>
 
    </div>
+
+    <a href=" https://validator.w3.org/nu/?doc=http%3A%2F%2F1526902.studentwebserver.co.uk%2FCO5027%2FContactus.aspx" >HTML VALIDATION</a>
 
 </asp:Content>

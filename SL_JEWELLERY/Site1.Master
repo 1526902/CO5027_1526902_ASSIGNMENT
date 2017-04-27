@@ -4,6 +4,9 @@
 
 <html>
 <head runat="server">
+
+    <script src="Scripts/jquery-3.1.1.js" type="text/javascript"></script>
+
    <title>SL Jewellery</title>
      
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -61,7 +64,6 @@
             alt="Valid CSS!" />
         </a>
 
-                <a href ="https://validator.w3.org/">MARKUP VALIDATION</a> <a href="https://jigsaw.w3.org/css-validator/">CSS VALIDATION</a>
         </p>
 
 
