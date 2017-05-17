@@ -26,10 +26,10 @@ namespace SL_JEWELLERY
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("sljewellery23@gmail.com", TextEmail.Text);
+            MailMessage msg = new MailMessage("sljewellery23@gmail.com", "sljewellery23@gmail.com");
             msg.Subject = "Name: " + TextName.Text + "Subject: " + TextSubject.Text;
             msg.Body = TextYourMessage.Text;
-            smtpClient.Send(msg);
+            
 
             try
             {

@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aboutus.aspx" />
+    <Content Include="admin.aspx" />
     <Content Include="Bracelet.aspx" />
     <Content Include="Contactus.aspx" />
     <Content Include="Default.aspx" />
@@ -130,13 +131,13 @@
     <Content Include="images\Watch1.PNG" />
     <Content Include="images\Watch2.PNG" />
     <Content Include="images\WATCHPS.jpg" />
-    <Content Include="Jewellery.aspx" />
     <Content Include="css\Jewellery.css" />
     <Content Include="Login.aspx" />
     <Content Include="MapJavaScript.js" />
     <Content Include="Necklace.aspx" />
     <Content Include="packages.config" />
     <Content Include="PrivatePage.aspx" />
+    <Content Include="productdetails.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Ring.aspx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
@@ -157,6 +158,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Tiara.aspx" />
+    <Content Include="UploadImage.aspx" />
     <Content Include="Watch.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -169,6 +171,13 @@
     </Compile>
     <Compile Include="Aboutus.aspx.designer.cs">
       <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Bracelet.aspx.cs">
       <DependentUpon>Bracelet.aspx</DependentUpon>
@@ -201,13 +210,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Jewellery.aspx.cs">
-      <DependentUpon>Jewellery.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Jewellery.aspx.designer.cs">
-      <DependentUpon>Jewellery.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -228,6 +230,13 @@
     </Compile>
     <Compile Include="PrivatePage.aspx.designer.cs">
       <DependentUpon>PrivatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productdetails.aspx.cs">
+      <DependentUpon>productdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productdetails.aspx.designer.cs">
+      <DependentUpon>productdetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
@@ -259,6 +268,13 @@
     <Compile Include="Tiara.aspx.designer.cs">
       <DependentUpon>Tiara.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UploadImage.aspx.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadImage.aspx.designer.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Watch.aspx.cs">
       <DependentUpon>Watch.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -269,6 +285,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ImageUpload\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

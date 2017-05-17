@@ -36,11 +36,12 @@
 				<li>
 				<a href="Aboutus.aspx" runat="server">ABOUT US</a></li>
 				<li>
-				<a href="Jewellery.aspx" runat="server">JEWELLERY</a></li>
-				<li>
 				<a href="Contactus.aspx" runat="server">CONTACT US</a></li>
                 <li>
 				<a href="Login.aspx" runat="server">LOGIN</a></li>
+                <li>
+				<a href="admin.aspx" runat="server">ADMIN</a></li>
+
 				
 			</ul>
 			

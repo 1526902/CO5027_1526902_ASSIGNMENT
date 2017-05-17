@@ -4,7 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 	 
-		
        <div id="content1">
 			    
 			  <h3>CONTACT THE SL JEWELLERY ONLINE TEAM</h3>
@@ -69,6 +68,9 @@
 
    </div>
 
+      <div id ="content9">
+
     <a href=" https://validator.w3.org/nu/?doc=http%3A%2F%2F1526902.studentwebserver.co.uk%2FCO5027%2FContactus.aspx" >HTML VALIDATION</a>
 
+      </div>
 </asp:Content>

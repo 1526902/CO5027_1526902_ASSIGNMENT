@@ -18,14 +18,14 @@ namespace SL_JEWELLERY
 
         protected void ButtonLogin_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
+            var identityDbContext = new IdentityDbContext("db_1526902_co5027_asgConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(TextUsername.Text, TextPassword.Text);
             if (user != null)
             {
                 LogUserIn(userManager, user);
-                Server.Transfer("PrivatePage.aspx", true);
+                Server.Transfer("admin.aspx", true);
             }
             else
             {

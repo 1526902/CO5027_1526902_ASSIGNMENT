@@ -6,7 +6,7 @@
 
     <div id="img1">
 
-          <img src="images/24-Karlie-Kloss-Swarovski.w710.h473.2x.jpg" alt="Karlie Kloss" style="height: 350px; width: 750px" />
+          <img src="images/24-Karlie-Kloss-Swarovski.w710.h473.2x.jpg" alt="Karlie Kloss" style="height: 409px; width: 843px" />
 
         <div class="container">
 
@@ -63,7 +63,23 @@
             
     </div>
 
+      <div id ="content9">
+
     <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526902.studentwebserver.co.uk%2FCO5027%2FDefault.aspx" >HTML VALIDATION</a>
     
+      </div>
+
+    <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+        <HeaderTemplate><table></HeaderTemplate>
+        <ItemTemplate>
+            <tr>
+                <td><a href="<%# Eval ("ProductID", "productdetails.aspx?Id={0}") %>"> <%#Eval("ProductName") %></a></td>
+            </tr>
+        </ItemTemplate>
+        <FooterTemplate></table></FooterTemplate>
+    </asp:Repeater>
+
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_1526902_co5027_asgConnectionString %>" SelectCommand="SELECT * FROM [Products]">
+    </asp:SqlDataSource>
 
 </asp:Content>

@@ -18,7 +18,7 @@ namespace SL_JEWELLERY
 
         protected void ButtonRegister_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
+            var identityDbContext = new IdentityDbContext("db_1526902_co5027_asgConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
 

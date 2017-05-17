@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SL_JEWELLERY
 {
-    public partial class Jewellery : System.Web.UI.Page
+    public partial class productdetails : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
